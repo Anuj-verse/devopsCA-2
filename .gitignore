@@ -1,0 +1,20 @@
+# Actual env file with secrets
+.env
+
+# Cosign private key — must NEVER be committed
+*.key
+cosign.key
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
