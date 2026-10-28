@@ -14,6 +14,8 @@ COPY app.py .
 RUN addgroup --system appgroup && adduser --system --ingroup appgroup appuser
 USER appuser
 
+ENV APP_VERSION=1.0.0
+
 # Expose the backend port
 EXPOSE 5000
 

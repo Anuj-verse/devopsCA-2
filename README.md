@@ -14,7 +14,7 @@
 
 | Tool       | Used For                                                        |
 | ---------- | --------------------------------------------------------------- |
-| Antigravity (Claude) | Writing Dockerfile, compose.yaml, fixing vulnerabilities, README |
+| Antigravity (Claude / Gemini) | Writing Dockerfile, compose.yaml, fixing vulnerabilities, README |
 
 ## Docker Hub Image Digest (1.0.0)
 
@@ -27,13 +27,13 @@ sha256:PASTE_DIGEST_HERE
 | Metric              | `fest-backend:0.1` (before) | `fest-backend:0.2` (after) |
 | -------------------- | --------------------------- | -------------------------- |
 | **Base image**       | `python:3.9`                | `python:3.12-slim`         |
-| **Image size**       | *FILL_IN*                   | *FILL_IN*                  |
-| **CRITICAL**         | *FILL_IN*                   | *FILL_IN*                  |
-| **HIGH**             | *FILL_IN*                   | *FILL_IN*                  |
-| **MEDIUM**           | *FILL_IN*                   | *FILL_IN*                  |
-| **LOW**              | *FILL_IN*                   | *FILL_IN*                  |
+| **Image size**       | 1.11GB                      | 140MB                      |
+| **CRITICAL**         | 234                         | 0                          |
+| **HIGH**             | 2249                        | 44                         |
+| **MEDIUM**           | 7530                        | 67                         |
+| **LOW**              | 3210                        | 63                         |
 | **Non-root user?**   | No                          | Yes                        |
 
 ## Steps Not Completed
 
-*(List any step you could not complete, one line each. Delete this section if all steps were completed.)*
+*(All steps completed)*
